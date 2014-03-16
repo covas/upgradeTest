@@ -1,4 +1,5 @@
 UpgradeTest::Application.routes.draw do
+  get 'test' => 'test#test'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
